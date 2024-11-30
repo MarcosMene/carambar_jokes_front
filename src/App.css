@@ -1,38 +1,132 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ 
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app{
+  height: 100vh;
+  background-image: radial-gradient( rgba(252, 244, 11, 0.493),rgba(255, 47, 0, 0.502));
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-direction: column;
+}
+
+.card{
+  padding:20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.831);
+  width: 50%;
+  margin:10px auto;
+  border-radius: 20px;
+}
+
+.app h1{
+  font-size: 3rem;
+  color:#cd1d24;
+  text-align: center;
+  font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-style: italic;
+  text-shadow:
+    3px 3px 0 #fff229,
+    -3px 3px 0 #fff229,
+    -3px -3px 0 #fff229,
+    3px -3px 0 #fff229;
+  
+  
+}
+
+.app h2{
+  font-size: 2rem;
+  margin:10px auto;
+  text-align: center;
+  
+}
+
+.app img{
+  width: 20%;
+  min-width: 200px;
+  transform: rotate(-4deg);
+}
+
+.answer_joke{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  
+}
+.answer_joke p{
+  font-size: 1.7rem;
+  margin: 0px auto 20px;
+  text-align: center;
+  
+
+}
+
+.btn {
+  margin: 10px 0;
   color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: normal;
+
+}
+.btn.answer{
+  background-color: #6fd272;
+  color:#024b04;
+}
+.btn.new_question{
+  margin-top: 20px;
+  background-color: #cd1d24;
+  color:#fff;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media  screen and (max-width: 600px)
+{
+  .app{
+    padding: 20px;
   }
-  to {
-    transform: rotate(360deg);
+  .app h1{
+    font-size: 2rem;
+    text-align: center;
+  }
+  .app h2{
+    font-size: 1.8rem;
+    text-align: center;
+  }
+  .answer_joke{
+    margin: 20px 0;
+  }
+  .answer_joke p{
+    font-size: 1.2rem;
+    margin: 5px auto;
+  }
+  .btn{
+    margin: 10px 0;
+    padding: 10px 15px;
+    font-size: 0.8rem;
+  }
+  .card{
+    width: 90%;
   }
 }
