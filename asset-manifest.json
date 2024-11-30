@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/carambar_jokes_front/static/css/main.b23cdb57.css",
+    "main.js": "/carambar_jokes_front/static/js/main.707a1b9e.js",
+    "static/js/453.4aebdbb8.chunk.js": "/carambar_jokes_front/static/js/453.4aebdbb8.chunk.js",
+    "static/media/carambar_logo.png": "/carambar_jokes_front/static/media/carambar_logo.378bac0795aa9927249b.png",
+    "index.html": "/carambar_jokes_front/index.html",
+    "main.b23cdb57.css.map": "/carambar_jokes_front/static/css/main.b23cdb57.css.map",
+    "main.707a1b9e.js.map": "/carambar_jokes_front/static/js/main.707a1b9e.js.map",
+    "453.4aebdbb8.chunk.js.map": "/carambar_jokes_front/static/js/453.4aebdbb8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b23cdb57.css",
+    "static/js/main.707a1b9e.js"
+  ]
+}
