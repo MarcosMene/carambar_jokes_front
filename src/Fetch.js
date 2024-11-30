@@ -13,7 +13,7 @@ function Jokes() {
 
   const FetchJoke = async () => {
     try {
-      const response = await axios.get('https://carambar-jokes-api-7d22.onrender.com/blagues/random');
+      const response = await axios.get('https://carambar-jokes-api-xbz1.onrender.com/blagues/random');
       setJokes(response.data);
       setIsVisible(false);
     } catch (error) {
