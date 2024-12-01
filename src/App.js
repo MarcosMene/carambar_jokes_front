@@ -1,6 +1,5 @@
 import './App.css';
 
-
 import Jokes from './Fetch';
 
 function App() {
