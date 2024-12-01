@@ -47,7 +47,7 @@ function Jokes() {
               onClick={() => setIsVisible(!isVisible)}
               className='btn answer'
             >
-              La reponse
+              La réponse
             </button>
           </div>
         ) : (
